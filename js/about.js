@@ -3,7 +3,7 @@ export function aboutImg() {
     var img = document.createElement("img");
     var img_div = document.createElement("div");
     img_div.className = "img-div";
-    img.src = "../img/istockphoto-2153275892-1024x1024.jpg";
+    img.src = "../img/istockphoto-533833660-1024x1024.jpg";
     img_div === null || img_div === void 0 ? void 0 : img_div.appendChild(img);
     div === null || div === void 0 ? void 0 : div.appendChild(img_div);
 }

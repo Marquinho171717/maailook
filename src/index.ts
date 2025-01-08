@@ -1,17 +1,15 @@
 import { createMenu, getContent } from "./menubar.js";
 import { aboutImg } from "./about.js";
 import { aboutText } from "./about.js";
-import { hometImg } from "./home.js";
-import { homeText } from "./home.js";
+import { homeProducts } from "./home.js";
 
 
 function updateMain(){
 	createMenu();
 	aboutImg();
 	aboutText();
-	hometImg();
-	homeText();
 	getContent();
+	homeProducts();
 }
 
 

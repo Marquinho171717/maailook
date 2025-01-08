@@ -6,6 +6,20 @@
 	align-items: center;
 }
 
+/*Div da arrayimagem*/
+.imgarray-div{
+    display: flexbox;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.img-class{
+   width: 15%;    /* Set the width to 50% of its parent container */
+   height: auto;  /* Maintain aspect ratio */
+}
+
 /*Texto da pagina about*/
 .about-text{
     text-align: justify;
