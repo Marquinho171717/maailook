@@ -7,7 +7,7 @@ export function aboutImg(){
 
 	img_div.className = "img-div";
 
-	img.src = "../img/istockphoto-2153275892-1024x1024.jpg";
+	img.src = "../img/istockphoto-533833660-1024x1024.jpg";
 
 	img_div?.appendChild(img);
 	div?.appendChild(img_div);

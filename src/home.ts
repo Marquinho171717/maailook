@@ -1,24 +1,40 @@
-export function hometImg(){
-	var div = document.getElementById("home-container");
-	var img = document.createElement("img");
+export function homeProducts(){
 
+	type products = {
+		name:    string;
+		price:   number;
+		img:     HTMLImageElement;
+		img_src: string;
+	}
+
+
+	let clothes: products[] = [];
+
+	for(let i = 0; i < 10; i++){
+		const items: products = {
+			name: `clothes ${i + 1}`,
+			price: 250,
+			img: document.createElement("img"),
+			img_src: "../img/istockphoto-1411678076-1024x1024.jpg"
+		};
+
+		items.img.src = items.img_src;
+		items.img.className = "img-class";
+		clothes.push(items);
+	}
+
+
+	var div = document.getElementById("home-container");
 	var img_div = document.createElement("div");
 
-	img_div.className = "img-div";
+	img_div.className = "imgarray-div";
 
-	img.src = "../img/istockphoto-533833660-1024x1024.jpg";
+	for (let i = 0; i < 10; i++){
+		img_div?.appendChild(clothes[i].img);
+		div?.appendChild(img_div);
+	}
 
-	img_div?.appendChild(img);
-	div?.appendChild(img_div);
+
 }
 
-export function homeText(){
-	var div = document.getElementById("home-container");
-	var text = document.createElement("p");
 
-	text.className = "about-text"
-
-	text.textContent = "Omnis corrupti ipsum dolor qui soluta. Commodi amet velit sunt. Porro pariatur assumenda itaque architecto. Nesciunt dolore id reprehenderit nisi fugiat eligendi esse est.Facilis tempora non repellendus commodi repellendus explicabo et. Aut ut eos sunt culpa. Nulla iure non iste recusandae ut sapiente esse consequatur.Earum possimus et ut quia molestiae quos. Est placeat sint qui voluptatum amet. Voluptatem non minus modi. Aspernatur ducimus architecto blanditiis. Pariatur quidem quo ex incidunt et. Magni ipsam aut voluptas quaerat tenetur molestiae ut eum.Fugit expedita non perspiciatis placeat soluta occaecati. Voluptates quam nulla aut illo non. Aut officiis dolorem numquam dolorum rerum incidunt harum quidem.Nulla ullam harum nemo ipsa. Voluptatem nihil exercitationem quos temporibus similique. Minima non iure voluptas molestiae officiis laborum. Quia molestiae nihil sint nemo et dolores.";
-
-	div?.appendChild(text);
-}
