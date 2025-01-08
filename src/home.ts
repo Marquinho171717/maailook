@@ -31,8 +31,8 @@ export function homeProducts(){
 
 	for (let i = 0; i < 10; i++){
 		img_div?.appendChild(clothes[i].img);
-		div?.appendChild(img_div);
 	}
+	div?.appendChild(img_div);
 
 
 }
