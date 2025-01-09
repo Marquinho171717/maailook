@@ -1,10 +1,10 @@
 
 export function createMenu(){
-	var div = document.getElementById("div") as HTMLAreaElement;
-	var div2 = document.getElementById("div2") as HTMLAreaElement;
+	const div = document.getElementById("div") as HTMLAreaElement;
+	const div2 = document.getElementById("div2") as HTMLAreaElement;
 
-	var home = document.createElement("a");
-	var about = document.createElement("a");
+	const home = document.createElement("a");
+	const about = document.createElement("a");
 
 	home.textContent = "Home";
 	home.href = "#";
