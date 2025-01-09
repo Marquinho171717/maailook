@@ -1,7 +1,7 @@
 
 export function createMenu(){
-	const div = document.getElementById("div") as HTMLAreaElement;
-	const div2 = document.getElementById("div2") as HTMLAreaElement;
+	const div = document.getElementById("div") as HTMLDivElement;
+	const div2 = document.getElementById("div2") as HTMLDivElement;
 
 	const home = document.createElement("a");
 	const about = document.createElement("a");
