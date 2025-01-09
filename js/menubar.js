@@ -1,8 +1,8 @@
 export function createMenu() {
-    var div = document.getElementById("div");
-    var div2 = document.getElementById("div2");
-    var home = document.createElement("a");
-    var about = document.createElement("a");
+    const div = document.getElementById("div");
+    const div2 = document.getElementById("div2");
+    const home = document.createElement("a");
+    const about = document.createElement("a");
     home.textContent = "Home";
     home.href = "#";
     home.className = "nav-link";

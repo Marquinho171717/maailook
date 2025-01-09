@@ -24,8 +24,8 @@ export function homeProducts(){
 	}
 
 
-	var div = document.getElementById("home-container");
-	var img_div = document.createElement("div");
+	const div = document.getElementById("home-container");
+	const img_div = document.createElement("div");
 
 	img_div.className = "imgarray-div";
 

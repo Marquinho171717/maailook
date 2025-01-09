@@ -11,11 +11,11 @@ export function homeProducts() {
         items.img.className = "img-class";
         clothes.push(items);
     }
-    var div = document.getElementById("home-container");
-    var img_div = document.createElement("div");
+    const div = document.getElementById("home-container");
+    const img_div = document.createElement("div");
     img_div.className = "imgarray-div";
     for (let i = 0; i < 10; i++) {
         img_div === null || img_div === void 0 ? void 0 : img_div.appendChild(clothes[i].img);
-        div === null || div === void 0 ? void 0 : div.appendChild(img_div);
     }
+    div === null || div === void 0 ? void 0 : div.appendChild(img_div);
 }

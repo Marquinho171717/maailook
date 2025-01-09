@@ -1,9 +1,9 @@
 
 export function aboutImg(){
-	var div = document.getElementById("about-container");
-	var img = document.createElement("img");
+	const div = document.getElementById("about-container");
+	const img = document.createElement("img");
 
-	var img_div = document.createElement("div");
+	const img_div = document.createElement("div");
 
 	img_div.className = "img-div";
 
@@ -14,8 +14,8 @@ export function aboutImg(){
 }
 
 export function aboutText(){
-	var div = document.getElementById("about-container");
-	var text = document.createElement("p");
+	const div = document.getElementById("about-container");
+	const text = document.createElement("p");
 
 	text.className = "about-text"
 
