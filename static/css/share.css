@@ -1,0 +1,91 @@
+
+
+/*Definições de estilos*/
+
+:root{
+    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --cor-link: white;
+    --cor-hover: pink;
+}
+
+
+/*Reset*/
+
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+a{
+    color: var(--cor-link);
+    text-decoration-line: none;
+}
+
+a:hover{
+    color: var(--cor-hover);
+}
+
+h1{
+    display: none;
+}
+
+html, body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+main{
+    flex-grow: 1;
+}
+
+p{
+	color: black;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+
+
+footer p{
+	text-align: center;
+}
+
+
+
+#menu-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 2.5rem;
+}
+
+#settings-logo{
+    max-height: 65%;
+    max-width: 65%;
+    padding-top: 0.2rem;
+}
+
+#img-logo{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.menu-link{
+    padding-right: 1rem;
+}
+
+nav {
+    display: flex;
+}
+
+
+nav a:last-child {
+    margin-left: auto;
+}
