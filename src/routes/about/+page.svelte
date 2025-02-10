@@ -3,7 +3,7 @@
 
 
 <main class="main-page">
- 
+    
 </main>
 
 <footer>
