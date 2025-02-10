@@ -4,7 +4,7 @@
 </script>
 
 <h1>Maillook</h1>
-<div id="wrap-02">
-    <MainPage/>
-</div>
+
+<MainPage/>
+
 

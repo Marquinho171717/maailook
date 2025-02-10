@@ -1,10 +1,9 @@
 <script lang="ts">
 	let { children } = $props();
     import { base } from '$app/paths';
-    import MainPage from "./mainPage.svelte";
 </script>
 
-<div id="wrap">
+
     <header>
         <div id="menu-bar">
         <nav>
@@ -17,10 +16,6 @@
         </nav>
         </div>
     </header>
-    <MainPage/>
-</div>
-
-
-     
+  
 
 {@render children()}

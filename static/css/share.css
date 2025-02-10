@@ -29,7 +29,7 @@ h1{
     display: none;
 }
 
-html, body, #wrap{
+html, body{
     position: relative;
     height: 100%;
     width: 100%;
@@ -40,23 +40,14 @@ html, body, #wrap{
 }
 /*MAIN*/
 
-#wrap{
+
+#main-div{
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
     max-width: 1024px;
     margin: auto;
-}
-
-#main-div{
-    display: flex;
-    align-items: center;
-    background-color: rgb(141, 123, 223);
-}
-
-main{
-    flex-grow: 1;
 }
 
 p{
