@@ -73,20 +73,98 @@ footer p{
 #menu-bar{
     display: flex;
     flex-direction: column;
-    background-color: blue;
-    height: 2.5rem;
+    background-color: #241f31;
+    height: 3.5rem;
 }
 
 #settings-logo{
-    max-height: 65%;
-    max-width: 65%;
-    padding-top: 0.2rem;
+    max-height: 50%;
+    max-width: 50%;
+    padding-top: 0.8rem;
 }
 
 #img-logo{
     max-width: 70%;
     max-height: 70%;
+    padding-top: 0.5rem;
 }
+
+#menu-bar-div{
+    margin-left: auto;
+}
+
+#user-logo{
+    max-width: 50%;
+    max-height: 50%;
+    padding-top: 0.5rem;
+}
+
+/*Dropdown*/
+/* Basic styling for the dropdown */
+        
+
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        
+
+         .carrinhoDropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .carrinho-dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .carrinho-dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .carrinho-dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+
+        .show {
+            display: block;
+        }
+
+        .hide{
+            display: block;
+        }
+
+/*Dropdown*/
 
 .menu-link{
     padding-right: 1rem;
@@ -100,3 +178,4 @@ nav {
 nav a:last-child {
     margin-left: auto;
 }
+
